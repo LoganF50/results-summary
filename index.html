@@ -18,15 +18,74 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    Your Result 76 of 100 Great You scored higher than 65% of the people who
-    have taken these tests. Summary Reaction 80 / 100 Memory 92 / 100 Verbal 61
-    / 100 Visual 72 / 100 Continue
-
-    <div class="attribution">
-      Challenge by
+    <main class="card">
+      <div class="result">
+        <h1 class="result__title">Your Result</h1>
+        <div class="result__score">
+          <div class="result__overall-score">76</div>
+          of 100
+        </div>
+        <div class="result__description">
+          <p class="description__title">Great</p>
+          <p class="description__text">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="summary">
+        <h2 class="summary__title">Summary</h2>
+        <div class="summary__section summary__section--red">
+          <img
+            class="section__image"
+            src="./assets/images/icon-reaction.svg"
+            alt=""
+          />
+          <p class="section__title section__title--red">Reaction</p>
+          <p class="section__score">
+            <span class="section__current-score">80</span> / 100
+          </p>
+        </div>
+        <div class="summary__section summary__section--yellow">
+          <img
+            class="section__image"
+            src="./assets/images/icon-memory.svg"
+            alt=""
+          />
+          <p class="section__title section__title--yellow">Memory</p>
+          <p class="section__score">
+            <span class="section__current-score">92</span> / 100
+          </p>
+        </div>
+        <div class="summary__section summary__section--green">
+          <img
+            class="section__image"
+            src="./assets/images/icon-verbal.svg"
+            alt=""
+          />
+          <p class="section__title section__title--green">Verbal</p>
+          <p class="section__score">
+            <span class="section__current-score">61</span> / 100
+          </p>
+        </div>
+        <div class="summary__section summary__section--blue">
+          <img
+            class="section__image"
+            src="./assets/images/icon-visual.svg"
+            alt=""
+          />
+          <p class="section__title section__title--blue">Visual</p>
+          <p class="section__score">
+            <span class="section__current-score">72</span> / 100
+          </p>
+        </div>
+        <button class="summary__button">Continue</button>
+      </div>
+    </main>
+    <footer class="footer">
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >
+      | <a href="#">Logan Faschingbauer</a>
+    </footer>
   </body>
 </html>
